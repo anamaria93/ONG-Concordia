@@ -1,0 +1,13 @@
+﻿  td, th {
+           background-color: lightskyblue;
+           color: white
+       }
+
+       .tabla th, td {
+           background-color: lightgray;
+           color: red;
+       }
+
+       #titulo {
+           color: green;
+       }

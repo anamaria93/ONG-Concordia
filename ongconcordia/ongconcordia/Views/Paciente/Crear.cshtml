@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Datos Paciente";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Datos Paciente</div>
+    <div class="panel-body">
+
+
+        <form method="post" action="/Paciente/Crear">
+            <div class="row">
+
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="primerNombre">Primer nombre</label>
+                        <input type="text" class="form-control" id="primerNombre"
+                            required maxlength="100"   placeholder="Introduce tu primer nombre" >
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="segundoNombre">Segundo nombre</label>
+                        <input type="text" class="form-control" id="segundoNombre"
+                               maxlength="100" placeholder="Introduce tu segundo nombre">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>  
+
+
+
+       
+    </div>
